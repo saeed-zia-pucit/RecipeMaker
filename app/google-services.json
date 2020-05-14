@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "133917232852",
+    "firebase_url": "https://myrecipemaker-11d2b.firebaseio.com",
+    "project_id": "myrecipemaker-11d2b",
+    "storage_bucket": "myrecipemaker-11d2b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:133917232852:android:716df60b25414ec1277541",
+        "android_client_info": {
+          "package_name": "com.example.myrecipemaker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "133917232852-f9a4u2mbisoir80fnolk8umd7phlku59.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.myrecipemaker",
+            "certificate_hash": "83497162ec382e8e57cc15422c0d5fc67e7f5d84"
+          }
+        },
+        {
+          "client_id": "133917232852-occimd5obfoi2if2op68pbhq3i2f4n9l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAkTzjA9I8-ijboPbTrlLUwgwBQlDwCqG4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "133917232852-occimd5obfoi2if2op68pbhq3i2f4n9l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddNewRecipe">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+            <EditText
+        android:id="@+id/title"
+        android:layout_width="352dp"
+        android:layout_height="78dp"
+        android:ems="10"
+
+
+        android:hint="Title"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="344dp"
+        android:layout_height="70dp"
+        android:ems="10"
+
+        android:hint="Detail"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.26" />
+
+
+            <EditText
+                android:id="@+id/inst"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Instruction"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/prep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Prepration Time"
+                android:inputType="textPersonName" />
+
+            <Spinner
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="57dp" />
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="120dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="144dp"
+                android:layout_marginTop="28dp"
+                android:text="chicken"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="124dp"
+                android:layout_height="39dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="28dp"
+                android:text="salt and black pepper" />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="28dp"
+                android:text="Oil"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox2" />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="28dp"
+                android:text=" Egg and burger buns"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox3" />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="137dp"
+                android:layout_height="35dp"
+                android:layout_marginLeft="144dp"
+                android:layout_marginTop="28dp"
+                android:text="Onion chopped"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/checkBox4" />
+
+            <Button
+                android:id="@+id/add_recipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add recipe"
+                android:layout_marginBottom="15dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

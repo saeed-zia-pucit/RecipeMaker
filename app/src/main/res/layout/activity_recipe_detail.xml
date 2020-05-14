@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecipeDetail">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="vertical">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+
+            <Button
+                android:id="@+id/add_to_cook"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="Add to CookBook" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:text="Description"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="match_parent"
+                android:layout_height="71dp"
+                android:text="TextView"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="49dp"
+                android:text="Prep Time"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="Instruction"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/inst"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:lines="4"
+                android:text="TextView"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="53dp"
+                android:text="Ingredients"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/ingr"
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:text="TextView" />
+
+            <Button
+                android:id="@+id/ShareRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Share Recipe"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
